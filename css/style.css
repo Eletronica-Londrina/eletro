@@ -1,9 +1,12 @@
 .titulo-principal {
-    box-shadow: 0px 2px 10px 1px black;
+    box-shadow: 0px 2px 2px 1px white;
     padding: 20px;
     text-align:center;
     font-size: 30px;
     color: white;
+}
+ul {
+    box-shadow: 0px 2px 10px 1px white;
 }
 .lista {
     display: flex;
@@ -25,14 +28,14 @@
 }
 .links:hover {
     font-size: 19px;
-    color: red;
+    color: blue;
 }
 .links:active {
     font-size: 17px;
     color: yellow;
 }
 header {
-    background: rgb(18, 10, 143);
+    background: rgb(0, 0, 0);
     position: relative;
 }
 main {
@@ -48,5 +51,5 @@ footer {
     position: relative;
     text-align: center;
     padding-bottom: 50px;
-    background: blue;
+    background: black;
 }
