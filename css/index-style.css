@@ -1,0 +1,30 @@
+
+h2 {
+    font-size: 25px; 
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+}
+.pa {
+    font-size: 20px;
+    padding: 30px 0 700px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+h2,.pa {
+    margin: 0;
+    background-color: rgba(9, 80, 125, 0.45);
+}
+.whats {
+    text-decoration: none;
+    color: lightgreen;
+    transition: all 0.8s;
+}
+.whats:hover {
+    color: yellowgreen;
+    font-size: 22px;
+}
+.whats:active {
+    color: white;
+
+}
